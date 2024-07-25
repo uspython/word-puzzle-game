@@ -1,0 +1,57 @@
+.word-puzzle {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.game-info {
+    margin-bottom: 20px;
+}
+
+.puzzle-area {
+    margin-top: 20px;
+}
+
+.word-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+    min-height: 36px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.character-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.character-card {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 5px;
+    cursor: move;
+    user-select: none;
+    background-color: #f0f0f0;
+}
+
+.character-card:hover {
+    background-color: #e0e0e0;
+}
+
+.game-controls {
+    margin-top: 20px;
+}
+
+.game-controls button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
